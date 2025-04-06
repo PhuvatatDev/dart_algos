@@ -20,7 +20,7 @@ Chaque fichier est autonome et contient un exercice résolu avec `main()` pour p
 | Fichier | Description |
 |--------|-------------|
 | `exo_01_most_frequent_element.dart` | Retourner l’élément le plus fréquent d’une liste |
-| ... | À venir |
+| `exo_02_two_largest_numbers.dart` | Trouver les deux plus grands nombres dans une liste |
 
 ---
 

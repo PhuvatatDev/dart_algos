@@ -27,6 +27,6 @@ int mostFrenquentElement(List<int> numbers) {
 }
 
 void main() {
-  List<int> numbers = [1, 2, 2, 3, 3, 3, 4];
+  List<int> numbers = [1, 2, 2, 2, 3, 3, 4, 4];
   print(mostFrenquentElement(numbers));
 }
