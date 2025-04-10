@@ -1,32 +1,41 @@
-# 🧠 Dart Algorithms Practice
+# 🧠 Dart Algorithms by PVTDev
 
-Ce dépôt contient ma collection d'exercices d'algorithmes réalisés en Dart pour m'entraîner et progresser en tant que développeur Flutter.
+A personal collection of algorithm exercises written in Dart to practice logic, problem-solving, and clean code.
 
-Chaque fichier est autonome et contient un exercice résolu avec `main()` pour pouvoir le tester rapidement dans un terminal.
+This repository is part of my journey to become a proficient Flutter & full-stack mobile developer.  
+Each exercise is saved in a separate file with clean code, comments, and tested outputs.
 
----
 
-## 📌 Objectifs
-
-- Renforcer ma logique algorithmique
-- Travailler la clarté du code et les bonnes pratiques Dart
-- Me préparer aux entretiens techniques et tests techniques
-- Organiser ma progression
+Each file includes:
+- A clear exercise title
+- Well-commented Dart code
+- A `main()` function to test the logic
 
 ---
 
-## 🧪 Liste des exercices
+## 📚 Exercises List
 
-| Fichier | Description |
-|--------|-------------|
-| `exo_01_most_frequent_element.dart` | Retourner l’élément le plus fréquent d’une liste |
-| `exo_02_two_largest_numbers.dart` | Trouver les deux plus grands nombres dans une liste |
-| `exo_03_missing_number_in_consecutive_list.dart` | Find the missing number in an unsorted list of consecutive integers |
+### 01 - Find the two largest numbers
+**Description:** Return the 2 highest values in a list without using `sort()`  
+📁 File: `exos/01_two_largest_numbers.dart`
+
 ---
 
-## 🛠️ Comment tester
+### 02 - Find all prime numbers up to N  
+**Description:** Returns a list of all prime numbers between 2 and N  
+📁 File: `exos/02_prime_numbers_up_to_n.dart`
 
-Ouvrir le terminal à la racine du projet, puis exécuter un fichier Dart :
+---
+
+### 03 - Find the missing number in a consecutive list  
+**Description:** Detects the only missing number in a list of integers from 1 to N  
+📁 File: `exos/03_missing_number_in_consecutive_list.dart`
+
+---
+
+## ▶️ How to Run an Exercise
+
+In your terminal, run:
 
 ```bash
-dart run exo_01_two_largest_numbers.dart
+dart run exos/03_missing_number_in_consecutive_list.dart
