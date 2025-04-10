@@ -21,7 +21,7 @@ Chaque fichier est autonome et contient un exercice résolu avec `main()` pour p
 |--------|-------------|
 | `exo_01_most_frequent_element.dart` | Retourner l’élément le plus fréquent d’une liste |
 | `exo_02_two_largest_numbers.dart` | Trouver les deux plus grands nombres dans une liste |
-
+| `exo_03_missing_number_in_consecutive_list.dart` | Find the missing number in an unsorted list of consecutive integers |
 ---
 
 ## 🛠️ Comment tester
