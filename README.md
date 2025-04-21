@@ -33,9 +33,15 @@ Each exercise is saved in a separate file with clean code, comments, and tested 
 
 ---
 
-### 🔹 05 - Filter integers with even digit sums
-Description: Filters a list of integers and returns only those whose digits add up to an even number.
+### 🔹 05 - Filter integers with even digit sums  
+**Description:** Filters a list of integers and returns only those whose digits add up to an even number.  
 📄 File: `exos_05_filter_even_digit_sums.dart`
+
+---
+
+### 🔹 06 - Is Pangram  
+**Description:** Checks if a given string is a *pangram*, meaning it contains every letter of the alphabet at least once.  
+📄 File: `exos_06_is_pangram.dart`
 
 ---
 
@@ -44,7 +50,6 @@ Description: Filters a list of integers and returns only those whose digits add 
 - Practice clean and readable Dart code.
 - Build confidence in solving logic-based challenges.
 - Prepare for technical interviews and app feature logic.
-
 
 ## ▶️ How to run the algorithms
 
