@@ -21,7 +21,8 @@ String mostFrequentLetter(String input) {
   frequencyMap.forEach((char, frequency) {
     // If frequency is higher OR if same frequency but char is alphabetically earlier
     if (frequency > maxFrequency ||
-        (frequency == maxFrequency && (mostFrequent == null || char.compareTo(mostFrequent!) < 0))) {
+        (frequency == maxFrequency &&
+            (mostFrequent == null || char.compareTo(mostFrequent!) < 0))) {
       mostFrequent = char;
       maxFrequency = frequency;
     }
