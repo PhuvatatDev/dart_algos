@@ -1,4 +1,4 @@
-// 🔹 EXERCICE 09 – Find Keys by Value in a Map
+// 🔹 EXERCICE 07 – Find Keys by Value in a Map
 
 // 🎯 Description:
 // Given a Map<String, int> and a target value (int),

@@ -1,6 +1,3 @@
-
-
-
 // exos_12_group_words_by_length.dart
 
 /// Groups a list of words by their length.
