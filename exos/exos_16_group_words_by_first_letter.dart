@@ -15,13 +15,13 @@ Map<String, List<String>> groupWordsByFirstLetter(List<String> words) {
     if (word.isEmpty) continue;
 
     // Convert to lowercase to group 'Apple' and 'apple' together
-    String firstLetter = word[0].toLowerCase();
+    String wordStart = word[0].toLowerCase();
 
     // If the key doesn't exist yet, initialize an empty list
-    result.putIfAbsent(firstLetter, () => []);
+    result.putIfAbsent(wordStart, () => []);
 
     // Add the word to the corresponding list
-    result[firstLetter]!.add(word);
+    result[wordStart]!.add(word);
   }
 
   /// Returns the result of the operation, typically a collection or map
@@ -32,7 +32,15 @@ Map<String, List<String>> groupWordsByFirstLetter(List<String> words) {
 }
 
 void main() {
-  List<String> words = ['Apple', 'apricot', 'banana', 'Berry', 'cherry', 'Cranberry', ''];
+  List<String> words = [
+    'Apple',
+    'apricot',
+    'banana',
+    'Berry',
+    'cherry',
+    'Cranberry',
+    '',
+  ];
   final grouped = groupWordsByFirstLetter(words);
   print(grouped);
 }
