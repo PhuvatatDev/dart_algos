@@ -1,4 +1,4 @@
-/// exos_15_sum_of_unique_values
+///* exos_15_sum_of_unique_values
 // 🧠 This function returns the sum of all integers that appear only once in the list.
 int sumOfUniqueValues(List<int> numbers) {
   // Map to store the count of each number
@@ -28,3 +28,8 @@ void main() {
   List<int> testList = [1, 2, 2, 3, 4, 4, 5];
   print(sumOfUniqueValues(testList)); // Expected output: 9
 }
+//? pourquoi les couleurs change avec cette extention
+// nermale comment 
+//! c'est tres important 
+//todo: l'extention comprend le terme todo 
+//* other comment color 

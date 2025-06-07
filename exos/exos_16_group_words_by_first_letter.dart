@@ -18,7 +18,9 @@ Map<String, List<String>> groupWordsByFirstLetter(List<String> words) {
     String wordStart = word[0].toLowerCase();
 
     // If the key doesn't exist yet, initialize an empty list
-    result.putIfAbsent(wordStart, () => []);
+    if (!result.containsKey(wordStart)) {
+      result[wordStart] = [];
+    }
 
     // Add the word to the corresponding list
     result[wordStart]!.add(word);

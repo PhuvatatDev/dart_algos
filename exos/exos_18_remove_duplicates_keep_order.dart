@@ -18,5 +18,13 @@ List<int> removeDuplicatesKeepOrder(List<int> nums) {
 void main() {
   final nums = [3, 5, 3, 1, 5, 9, 1];
   final result = removeDuplicatesKeepOrder(nums);
-  print(result); 
+  // Output: [3, 5, 1, 9]
+  // Explanation:
+  // The function removeDuplicatesKeepOrder removes duplicates from the list while keeping the original order.
+  // - It uses a Set<int> called 'seen' to track which numbers have already been added.
+  // - It iterates through each number in the input list.
+  // - If the number hasn't been seen before, it adds it to both 'seen' and the result list.
+  // - This ensures each number appears only once, and in the order of their first appearance.
+  // For the input [3, 5, 3, 1, 5, 9, 1], the output is [3, 5, 1, 9].
+  print(result);
 }

@@ -21,18 +21,18 @@ List<String> commonLetters(String word1, String word2) {
   Set<String> set2 = word2.split('').toSet();
 
   // Create an empty list for the result
-  List<String> result = [];
+  List<String> common = [];
 
   // Loop through each letter in set1
   for (var letter in set1) {
     // If the letter is also in set2, add it to result
     if (set2.contains(letter)) {
-      result.add(letter);
+      common.add(letter);
     }
   }
 
   // Sort the result list
-  result.sort();
+  common.sort();
 
-  return result;
+  return common;
 }

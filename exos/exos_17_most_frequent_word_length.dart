@@ -3,7 +3,7 @@ Write a function that takes a list of words and returns the most common word len
 If there's a tie, return the smallest length.
 */
 
-int mostFrequentWordlength(List<String> words) {
+int mostFrequentWordLength(List<String> words) {
   // Map to count occurrences of each word length
   final Map<int, int> lengthCounts = {};
 
